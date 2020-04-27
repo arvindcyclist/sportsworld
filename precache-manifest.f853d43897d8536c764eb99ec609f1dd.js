@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2fe1b91529dbd0a894b0760996f5366",
+    "revision": "ab39e75e43c6792af628eb3f18564e30",
     "url": "/sportsworld/index.html"
   },
   {
-    "revision": "6275928201c1e7472a27",
+    "revision": "85a6752d7c6fdda4e616",
     "url": "/sportsworld/static/css/main.8e471a26.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sportsworld/static/js/2.4145c0f7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6275928201c1e7472a27",
-    "url": "/sportsworld/static/js/main.e90cd690.chunk.js"
+    "revision": "85a6752d7c6fdda4e616",
+    "url": "/sportsworld/static/js/main.db3d37cc.chunk.js"
   },
   {
     "revision": "d827930240acbe5f593f",
