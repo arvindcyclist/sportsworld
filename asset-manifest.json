@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sportsworld/static/css/main.8e471a26.chunk.css",
+    "main.js": "/sportsworld/static/js/main.e90cd690.chunk.js",
+    "main.js.map": "/sportsworld/static/js/main.e90cd690.chunk.js.map",
+    "runtime-main.js": "/sportsworld/static/js/runtime-main.f231533a.js",
+    "runtime-main.js.map": "/sportsworld/static/js/runtime-main.f231533a.js.map",
+    "static/js/2.4145c0f7.chunk.js": "/sportsworld/static/js/2.4145c0f7.chunk.js",
+    "static/js/2.4145c0f7.chunk.js.map": "/sportsworld/static/js/2.4145c0f7.chunk.js.map",
+    "index.html": "/sportsworld/index.html",
+    "precache-manifest.989cc0b91884dd816824a58ad56e34c4.js": "/sportsworld/precache-manifest.989cc0b91884dd816824a58ad56e34c4.js",
+    "service-worker.js": "/sportsworld/service-worker.js",
+    "static/css/main.8e471a26.chunk.css.map": "/sportsworld/static/css/main.8e471a26.chunk.css.map",
+    "static/js/2.4145c0f7.chunk.js.LICENSE.txt": "/sportsworld/static/js/2.4145c0f7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f231533a.js",
+    "static/js/2.4145c0f7.chunk.js",
+    "static/css/main.8e471a26.chunk.css",
+    "static/js/main.e90cd690.chunk.js"
+  ]
+}
