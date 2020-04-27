@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sportsworld/precache-manifest.f853d43897d8536c764eb99ec609f1dd.js"
+  "/sportsworld/precache-manifest.2b8dea08f7875a790493be3900e18974.js"
 );
 
 self.addEventListener('message', (event) => {
