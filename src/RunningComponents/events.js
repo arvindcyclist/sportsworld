@@ -1,43 +1,18 @@
-import React, {useState, useEffect} from 'react'
-import RoadNav from '../component/RoadNav'
-import roadEventData from '../assets/roadevents.json'
-import {Card, OverlayTrigger, Button} from 'react-bootstrap'
-function RoadEvents(){
-    useEffect(()=>{
-        fetchItems()
-    },[])
-    
-    const [items, setItems] = useState([])
-    
+import React from 'react'
+import RunNav from '../component/RunNav'
+import runData  from '../assets/runningevents.json'
 
-    const fetchItems = async () =>{
-       const data = await fetch('https://jsonplaceholder.typicode.com/todos/')
-       const items=await data.json()
-       setItems(items)
-    }
-
-    const tableContent = items.map(item =>(
-                
-                    
-        <tr key={item.id}>
-        <td>{item.id}</td>
-        <td>{item.title}</td>
-        </tr>
-    ))
-    const showDetails =(venue)=>{
-       //pop up login
-       alert(`this is not ${venue}`)
-    }
-    const eventData = roadEventData.map((data, index) =>(
-        <tr key={index}>
+function RunEvents(){
+   
+    const runContent = runData.map((data)=>(
+    
+        <tr key={data.id}>
             <td>{data.date}</td>
-            <td onClick={()=>showDetails(data.venue)}>{data.venue}</td>
+            <td>{data.venue}</td>
             <td>{data.category}</td>
         </tr>
-
     ))
-    
-    
+
     const searchContent = () =>{
         let input, filter, table, tr, td, i, txtValue
         input = document.getElementById("searchInput")
@@ -58,9 +33,9 @@ function RoadEvents(){
     }
     return(
         <div>
-            <h2>ROAD</h2>
+            <h2>RUNNING</h2>
             <div>
-                <RoadNav></RoadNav>
+                <RunNav></RunNav>
             </div>
             <p></p>
             <div>
@@ -75,7 +50,7 @@ function RoadEvents(){
                         <th>venue</th>
                         <th>Category</th>
                         </tr>
-                        {eventData}
+                        {runContent}
                     </tbody>
                 </table>        
             </div>
@@ -84,4 +59,4 @@ function RoadEvents(){
     )
 }
 
-export default RoadEvents
+export default RunEvents
