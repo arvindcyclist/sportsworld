@@ -20,13 +20,13 @@ function Road() {
             <div>
             <Carousel>
                 <Carousel.Item>
-                    <img style={{innerHeight : "640px", innerWidth : "440px"}}
+                    <img 
                         className="d-block w-100"
                         src={RoadSprint}
                         alt="Sprinting"
                     />
                     <Carousel.Caption>
-                        <h3>Sonu is Sprinting</h3>
+                        <p>Sonu is Sprinting</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
