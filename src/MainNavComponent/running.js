@@ -1,5 +1,5 @@
 import React from 'react'
-import RunNav from '../component/RunNav'
+import RunNav from '../NavLinkComponent/RunNav'
 import {Carousel} from 'react-bootstrap'
 import HimalyanRun from '../assets/run_images/himalyanrun.jpg'
 import NatureRun from '../assets/run_images/naturerun.jpg'

@@ -1,5 +1,5 @@
 import React from 'react'
-import RunNav from '../component/RunNav'
+import RunNav from '../NavLinkComponent/RunNav'
 
 function RunAbout(){
     return (

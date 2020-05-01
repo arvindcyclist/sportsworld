@@ -1,19 +1,19 @@
 import React from 'react';
-import Navigation from './component/Naviagation';
+import Navigation from './NavLinkComponent/Naviagation';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Road from './navcomponents/road';
-import Mtb from './navcomponents/mtb';
-import Running from './navcomponents/running';
-import Ironman from './navcomponents/ironman';
-import Chess from './navcomponents/chess';
-import Shooting from './navcomponents/shooting';
+import Road from './MainNavComponent/road';
+import Mtb from './MainNavComponent/mtb';
+import Running from './MainNavComponent/running';
+import Ironman from './MainNavComponent/ironman';
+import Chess from './MainNavComponent/chess';
+import Shooting from './MainNavComponent/shooting';
 
 import RoadAbout from './RoadComponent/about'
 import RoadOverview from './RoadComponent/overview'
 import RoadEvents from './RoadComponent/events'
-import RunOverview from './RunningComponents/overview';
-import RunAbout from './RunningComponents/about';
-import RunEvents from './RunningComponents/events';
+import RunOverview from './RunningComponent/overview';
+import RunAbout from './RunningComponent/about';
+import RunEvents from './RunningComponent/events';
 
 function App() {
   return (

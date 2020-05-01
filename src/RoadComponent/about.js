@@ -1,5 +1,5 @@
 import React from 'react'
-import RoadNav from '../component/RoadNav'
+import RoadNav from '../NavLinkComponent/RoadNav'
 
 function RoadAbout(){
     return(
@@ -9,7 +9,7 @@ function RoadAbout(){
             <RoadNav></RoadNav>
         </div>
         <div>
-            <h1>Road cycling is cycling sports which is played on tarmac</h1>
+            <h1>Road bike in india is made popular</h1>
         </div>
         </div>
     )

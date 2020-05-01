@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import RoadNav from '../component/RoadNav'
+import RoadNav from '../NavLinkComponent/RoadNav'
 import roadEventData from '../assets/roadevents.json'
 import {Card, OverlayTrigger, Button} from 'react-bootstrap'
 function RoadEvents(){
@@ -11,17 +11,17 @@ function RoadEvents(){
     
 
     const fetchItems = async () =>{
-       const data = await fetch('https://jsonplaceholder.typicode.com/todos/')
+       const data = await fetch('http://127.0.0.1:3004/road')
        const items=await data.json()
        setItems(items)
     }
 
     const tableContent = items.map(item =>(
-                
-                    
         <tr key={item.id}>
-        <td>{item.id}</td>
+        <td>{item.date}</td>
         <td>{item.title}</td>
+        <td>{item.venue}</td>
+        <td>{item.contact}</td>
         </tr>
     ))
     const showDetails =(venue)=>{
@@ -68,7 +68,7 @@ function RoadEvents(){
             </div>
             
             <div>
-                <table id="searchTable">
+                {/* <table id="searchTable">
                     <tbody>
                         <tr>
                         <th>Date</th>
@@ -77,7 +77,21 @@ function RoadEvents(){
                         </tr>
                         {eventData}
                     </tbody>
-                </table>        
+                </table>   */}
+                {/* below table got updated based on api calls */}
+                
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Date</th>
+                            <th>title</th>
+                            <th>Venue</th>
+                            <th>Contact</th>
+                        </tr>
+                        {tableContent}
+                    </tbody>
+                </table>      
             </div>
             
         </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import RoadNav from '../component/RoadNav'
+import RoadNav from '../NavLinkComponent/RoadNav'
 import { Carousel } from 'react-bootstrap'
 import RoadSprint from '../assets/road_images/roadsprint.jpg'
 import RoadParked from '../assets/road_images/roadparked.jpg'
