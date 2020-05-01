@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "event data server rest-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvindcyclist/sportsworld.git"
+  },
+  "author": "arvind cyclist yadav.arvind870@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvindcyclist/sportsworld/issues"
+  },
+  "homepage": "https://github.com/arvindcyclist/sportsworld#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
+}
